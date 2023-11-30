@@ -1,17 +1,15 @@
-import DashboardFooter from "@/components/DashboardFooter/DashboardFooter";
 import DashboardNavbar from "@/components/DashboardNavbar/DashboardNavbar";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import React from "react";
 
 const WithDashboardLayout = ({ children }) => {
   return (
-    <main>
-      <div className="flex flex-col container mx-auto">
-        <DashboardNavbar/>
-        <Sidebar />
+    <main className="container mx-auto h-screen flex">
+      <Sidebar />
+      <div className="flex flex-col w-full">
+        <DashboardNavbar />
+        {children}
       </div>
-      {children}
-      <DashboardFooter />
     </main>
   );
 };

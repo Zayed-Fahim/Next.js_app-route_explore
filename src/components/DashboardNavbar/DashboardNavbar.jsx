@@ -7,34 +7,18 @@ const inter = Inter({ subsets: ["latin"] });
 const DashboardNavbar = () => {
   return (
     <div
-      className={`${inter.className} flex justify-between container mx-auto z-[100] items-center fixed top-0 bg-white h-[8vh] border border-b-slate-300`}
+      className={`${inter.className} h-[8vh] bg-gray-50 sticky top-0 flex flex-row-reverse items-center w-full`}
     >
-      <h1 className="text-3xl font-bold">Day 7</h1>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <ul className="flex space-x-5">
+      <nav className="pr-5">
+        <ul className="flex space-x-5 py-5">
           <li className="nav-item">
-            <Link className="nav-link" href="/">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" href="/about">
+            <Link className="nav-link text-[1.2rem]" href="/about">
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/blogs">
+            <Link className="nav-link text-[1.2rem]" href="/blogs">
               Blogs
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" href="/dashboard">
-              Dashboard
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" href="/profile">
-              Profile
             </Link>
           </li>
         </ul>
