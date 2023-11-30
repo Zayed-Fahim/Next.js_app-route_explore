@@ -1,23 +1,22 @@
-import Link from "next/link";
-import React from "react";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
 const DashboardNavbar = () => {
   return (
     <div
-      className={`${inter.className} h-[8vh] bg-gray-50 sticky top-0 flex flex-row-reverse items-center w-full`}
+      className={`${inter.className} h-[8vh] bg-gray-200 sticky top-0 flex flex-row-reverse items-center w-full border-l-zinc-300`}
     >
       <nav className="pr-5">
         <ul className="flex space-x-5 py-5">
-          <li className="nav-item">
-            <Link className="nav-link text-[1.2rem]" href="/about">
+          <li>
+            <Link className="text-[1.2rem]" href="/about">
               About
             </Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link text-[1.2rem]" href="/blogs">
+          <li>
+            <Link className="text-[1.2rem]" href="/blogs">
               Blogs
             </Link>
           </li>

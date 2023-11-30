@@ -35,7 +35,7 @@ const blogs = [
 ];
 const BlogsPage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen container mx-auto">
       {blogs.map(({ blog_id, year, title }) => (
         <Link
           className="block border border-blue-600 py-3 px-5 my-2"
