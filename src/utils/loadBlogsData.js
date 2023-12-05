@@ -1,6 +1,6 @@
 const loadBlogsData = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
-    cache: "default",
+    cache: "force-cache",
   });
   return await res.json();
 };

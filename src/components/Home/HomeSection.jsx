@@ -1,12 +1,11 @@
 import React from "react";
-import image_1 from "@/assets/images.png";
-import Image from "next/image";
+import Categories from "./Categories/Categories";
 
 const Home = () => {
   return (
     <div className="container mx-auto py-5">
-      <h1 className="text-2xl font-bold pb-5">This is Home.</h1>
-      <Image width={1920} src={image_1} alt="" />
+      <h1 className="text-2xl font-bold pb-5">All Categories</h1>
+      <Categories />
     </div>
   );
 };
