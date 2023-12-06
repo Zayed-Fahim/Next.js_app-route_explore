@@ -11,9 +11,9 @@ const WithDashboardLayout = ({ children }) => {
   return (
     <main className="h-screen flex">
       <Sidebar />
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col flex-1">
         <DashboardNavbar />
-        {children}
+        <main className="overflow-y-auto">{children}</main>
       </div>
     </main>
   );

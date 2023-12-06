@@ -1,4 +1,4 @@
-const getCategories = async () => {
+const getAllCategories = async () => {
   const res = await fetch("http://localhost:5000/categories", {
     cache: "force-cache",
   });
@@ -6,4 +6,4 @@ const getCategories = async () => {
   return categories;
 };
 
-export default getCategories;
+export default getAllCategories;

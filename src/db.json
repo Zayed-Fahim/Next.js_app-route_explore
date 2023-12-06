@@ -1,18 +1,8 @@
 {
   "categories": [
     {
-      "id": 1,
-      "name": "Electronics",
-      "img_url": "https://example.com/electronics.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Clothing",
-      "img_url": "https://example.com/clothing.jpg"
-    },
-    {
       "id": 3,
-      "name": "Home and Garden",
+      "name": "Electronics",
       "img_url": "https://example.com/home-garden.jpg"
     },
     {
@@ -53,120 +43,28 @@
   ],
   "products": [
     {
-      "id": 1,
-      "title": "Smartphone",
-      "price": "$599",
-      "categoryId": 1,
-      "features": [
-        "5G connectivity",
-        "High-resolution camera",
-        "Large storage"
-      ],
-      "img_url": "https://example.com/smartphone.jpg"
-    },
-    {
-      "id": 2,
-      "title": "T-Shirt",
-      "price": "$19",
-      "categoryId": 2,
-      "features": ["Comfortable fit", "Various colors", "Cotton material"],
-      "img_url": "https://example.com/t-shirt.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Garden Furniture Set",
-      "price": "$299",
-      "categoryId": 3,
-      "features": [
-        "Weather-resistant",
-        "Comfortable seating",
-        "Stylish design"
-      ],
-      "img_url": "https://example.com/garden-furniture.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Camping Tent",
-      "price": "$149",
-      "categoryId": 4,
-      "features": ["Easy setup", "Waterproof material", "Spacious interior"],
-      "img_url": "https://example.com/camping-tent.jpg"
-    },
-    {
-      "id": 5,
-      "title": "The Alchemist",
-      "price": "$15",
-      "categoryId": 5,
-      "features": ["Philosophical", "Adventure", "Life-changing"],
-      "img_url": "https://example.com/alchemist.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Building Blocks Set",
-      "price": "$25",
-      "categoryId": 6,
-      "features": [
-        "Creative play",
-        "Colorful blocks",
-        "Stimulates imagination"
-      ],
-      "img_url": "https://example.com/building-blocks.jpg"
-    },
-    {
-      "id": 7,
-      "title": "Anti-Aging Serum",
-      "price": "$45",
-      "categoryId": 7,
-      "features": ["Hydrating formula", "Reduces wrinkles", "Smooths skin"],
-      "img_url": "https://example.com/anti-aging-serum.jpg"
-    },
-    {
       "id": 8,
       "title": "Cookware Set",
-      "price": "$199",
+      "price": "$299",
       "categoryId": 8,
-      "features": ["Non-stick pans", "Stainless steel", "Durable construction"],
-      "img_url": "https://example.com/cookware-set.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Resistance Bands Set",
-      "price": "$29",
-      "categoryId": 9,
       "features": [
-        "Versatile workouts",
-        "Durable material",
-        "Various resistance levels"
+        "Non-stick pans",
+        "Stainless steel",
+        "Durable construction"
       ],
-      "img_url": "https://example.com/resistance-bands.jpg"
+      "img_url": "https://example.com/cookware-set.jpg"
     },
     {
       "id": 10,
       "title": "Cat Scratching Post",
       "price": "$19",
       "categoryId": 10,
-      "features": ["Sisal material", "Interactive play", "Sturdy base"],
-      "img_url": "https://example.com/cat-scratching-post.jpg"
-    },
-    {
-      "id": 11,
-      "title": "4K UHD TV",
-      "price": "$799",
-      "categoryId": 1,
       "features": [
-        "Large screen size",
-        "Ultra-high definition",
-        "Smart TV functionality"
+        "Sisal material",
+        "Interactive play",
+        "Sturdy base"
       ],
-      "img_url": "https://example.com/4k-tv.jpg"
-    },
-    {
-      "id": 12,
-      "title": "Leather Wallet",
-      "price": "$39",
-      "categoryId": 2,
-      "features": ["Genuine leather", "Slim design", "Multiple card slots"],
-      "img_url": "https://example.com/leather-wallet.jpg"
+      "img_url": "https://example.com/cat-scratching-post.jpg"
     },
     {
       "id": 13,
@@ -245,7 +143,11 @@
       "title": "Yoga Mat",
       "price": "$19",
       "categoryId": 9,
-      "features": ["Non-slip surface", "Thick cushioning", "Easy to clean"],
+      "features": [
+        "Non-slip surface",
+        "Thick cushioning",
+        "Easy to clean"
+      ],
       "img_url": "https://example.com/yoga-mat.jpg"
     },
     {
@@ -259,46 +161,6 @@
         "Entertains cats for hours"
       ],
       "img_url": "https://example.com/cat-toy.jpg"
-    },
-    {
-      "id": 21,
-      "title": "Smartphone",
-      "price": "$599",
-      "categoryId": 1,
-      "features": [
-        "5G connectivity",
-        "High-resolution camera",
-        "Large storage"
-      ],
-      "img_url": "https://example.com/smartphone.jpg"
-    },
-    {
-      "id": 22,
-      "title": "Laptop",
-      "price": "$999",
-      "categoryId": 1,
-      "features": [
-        "Powerful processor",
-        "High-definition display",
-        "Lightweight design"
-      ],
-      "img_url": "https://example.com/laptop.jpg"
-    },
-    {
-      "id": 23,
-      "title": "T-Shirt",
-      "price": "$19",
-      "categoryId": 2,
-      "features": ["Comfortable fit", "Various colors", "Cotton material"],
-      "img_url": "https://example.com/t-shirt.jpg"
-    },
-    {
-      "id": 24,
-      "title": "Jeans",
-      "price": "$49",
-      "categoryId": 2,
-      "features": ["Classic denim", "Slim fit", "Durable fabric"],
-      "img_url": "https://example.com/jeans.jpg"
     },
     {
       "id": 25,
@@ -325,48 +187,16 @@
       "img_url": "https://example.com/thermostat.jpg"
     },
     {
-      "id": 27,
-      "title": "Wireless Earbuds",
-      "price": "$79",
-      "categoryId": 1,
-      "features": [
-        "Bluetooth connectivity",
-        "Noise cancellation",
-        "Long battery life"
-      ],
-      "img_url": "https://example.com/wireless-earbuds.jpg"
-    },
-    {
-      "id": 28,
-      "title": "Gaming Laptop",
-      "price": "$1299",
-      "categoryId": 1,
-      "features": [
-        "High-performance GPU",
-        "RGB backlit keyboard",
-        "Fast refresh rate"
-      ],
-      "img_url": "https://example.com/gaming-laptop.jpg"
-    },
-    {
       "id": 29,
       "title": "Running Shoes",
       "price": "$79",
       "categoryId": 4,
-      "features": ["Comfortable", "Durable sole", "Breathable material"],
-      "img_url": "https://example.com/running-shoes.jpg"
-    },
-    {
-      "id": 30,
-      "title": "Camping Gear Bundle",
-      "price": "$199",
-      "categoryId": 4,
       "features": [
-        "Tent, sleeping bag, and stove",
-        "Complete camping set",
-        "High-quality materials"
+        "Comfortable",
+        "Durable sole",
+        "Breathable material"
       ],
-      "img_url": "https://example.com/camping-gear.jpg"
+      "img_url": "https://example.com/running-shoes.jpg"
     }
   ]
 }

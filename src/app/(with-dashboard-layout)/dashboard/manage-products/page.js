@@ -1,7 +1,14 @@
+import ManageProducts from "@/components/ManageProducts/ManageProducts";
+import getAllProducts from "@/utils/getAllProducts";
 import React from "react";
 
-const ManageProductsPage = () => {
-  return <div className="h-auto w-full p-5">This is Manage Products Page.</div>;
+const ManageProductsPage = async () => {
+  const products = await getAllProducts();
+  return (
+    <div className="h-auto w-full">
+      <ManageProducts products={products} />
+    </div>
+  );
 };
 
 export default ManageProductsPage;

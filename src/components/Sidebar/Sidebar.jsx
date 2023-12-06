@@ -16,6 +16,10 @@ const Sidebar = () => {
       path: "/dashboard/add-product",
     },
     {
+      title: "Manage Categories",
+      path: "/dashboard/manage-categories",
+    },
+    {
       title: "Manage Products",
       path: "/dashboard/manage-products",
     },
