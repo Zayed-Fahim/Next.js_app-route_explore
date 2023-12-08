@@ -6,9 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Navbar = () => {
   return (
-    <div className={`${inter.className} sticky top-0 w-full bg-blue-500 z-[100]`}>
+    <div
+      className={`${inter.className} sticky top-0 w-full bg-blue-500 z-[100]`}
+    >
       <div className="flex justify-between items-center container mx-auto h-[8vh]">
-        <h1 className="text-3xl font-bold text-white">Day 12</h1>
+        <h1 className="text-3xl font-bold text-white">Day 14</h1>
         <nav className="">
           <ul className="flex space-x-5">
             <li>

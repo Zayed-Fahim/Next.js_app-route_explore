@@ -5,7 +5,7 @@ import React from "react";
 export const generateMetadata = async ({ params }) => {
   const { id } = await loadSingleBlogData(params.id);
   return {
-    title: `Day 12 || Blog-${id}`,
+    title: `Day 14 || Blog-${id}`,
   };
 };
 

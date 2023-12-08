@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Day 12 || Blogs",
+  title: "Day 14 || Blogs",
 };
 
 const BlogsPage = async () => {
